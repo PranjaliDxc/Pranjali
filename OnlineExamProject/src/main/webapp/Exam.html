@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="Exam.css">
+<script  src="Exam.js"></script>
+
+<title>Examination</title>
+
+<meta charset="ISO-8859-1">
+
+<title>Insert title here</title>
+</head>
+
+<body  onload = "load()">
+
+<center><p1 class = "title"> Welcome To Online Exam!</p1></center>
+
+<div id ="MainForm" allign ="Left">
+<br/>
+
+<form name="ExamForm" id ="inputForm1">
+<p2 id="Question">
+Question :-
+</p2><br/>
+<br>
+
+<input type ="radio" name ="Option" id= "Optn1" onClick="AnswerChoosed(1)"/> 
+<label id = "Option0" name="Name1">1st Option</label><br/>
+<input type ="radio" name ="Option" id= "Optn2" onClick="AnswerChoosed(2)"/>
+<label id = "Option1" >2nd Option</label><br/>
+<input type ="radio" name ="Option" id= "Optn3" onClick="AnswerChoosed(3)"/>
+<label id = "Option2">3rd Option</label><br/>
+<input type ="radio" name ="Option" id= "Optn4" onClick="AnswerChoosed(4)"/>
+<label id = "Option3" >4th Option</label><br/>
+<br/>
+<br/>
+ <input type= "button"  value ="Next-Question"  onClick="NextQuestion()">
+</form>
+</div>
+
+</body>
+</html>
