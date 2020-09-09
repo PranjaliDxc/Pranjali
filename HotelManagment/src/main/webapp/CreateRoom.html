@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<center>
+<table  border="2">
+
+<form method ="post" action = "CreateRoom.jsp">
+ <br/>  <br/>
+                             <tr> <th>  ADD ROOM </th></tr>
+                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                               <br/>  <br/>
+                               <br/>  <br/>
+         <tr> <th>  ROOM TYPE :  &nbsp; &nbsp; &nbsp; &nbsp;
+           <select name="type">
+            <option value ="single"> Single</option>
+           <option value ="double"> Double</option>
+           </select> <br/> <br/></th></tr>
+          
+           
+    <tr><th>      Cost Per Day : &nbsp; &nbsp; &nbsp;
+          <input type ="number"  name ="costperday"/> <br/> <br/>  </th></tr>
+           
+           
+     <tr><th>     Status: &nbsp; &nbsp; &nbsp;
+           <input type ="text"  name ="status"  value ="Available"  readonly="readonly"/> <br/> <br/></th></tr>
+          
+           
+      <tr><th>     <input type ="submit"  value = "Add Room"/></th></tr>
+       
+          
+
+
+
+
+
+</form>
+</table>
+</center>
+</body>
+</html>
